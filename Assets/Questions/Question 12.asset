@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e139e974c7ef24d838ae01f3dc0277e6, type: 3}
+  m_Name: Question 12
+  m_EditorClassIdentifier: 
+  question: Who was Adam Mickiewicz, the famous Polish figure known for his epic
+    poetry and significant influence on Polish Romanticism?
+  answers:
+  - A revolutionary composer known for his piano concertos
+  - A renowned playwright famous for his modern dramas
+  - A prominent Romantic poet and national activist
+  - A celebrated scientist who discovered new elements
+  correctAnswerIndex: 2
