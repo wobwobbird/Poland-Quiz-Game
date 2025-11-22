@@ -5,21 +5,63 @@
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Uu]ser[Ss]ettings/
 [Mm]emoryCaptures/
+[Cc]rashReports/
+
+# Unity cache and temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+*.orig
+*.rej
+
+# Unity crash logs
+sysinfo.txt
+
+# Visual Studio cache files
+*.cache
+*.obj
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+[Aa]pp_[Dd]ata/
+
+# Unity3d generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
 
 # IDE files
 .vs/
 .idea/
 *.sln
+*.sln.iml
 *.csproj
 *.user
 *.unityproj
 
-# OS-specific
-.DS_Store
-Thumbs.db
+# Unity Package Manager
+[Uu]nityPackageManager/log.txt
 
-# Others
-*.bak
-*.swp
-*.tmp
+# Unity Addressables
+[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# OS-specific
+# MacOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
